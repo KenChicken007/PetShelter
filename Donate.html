@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Donate</title>
+    <link rel="stylesheet" href="Donate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+
+    </script>
+</head>
+
+<body>
+    <div class="t1">
+        <div>
+            <img class="img" src="logo.jpg">
+        </div>
+        <div>
+            <ul>
+                <li><a href="index.html">Home page</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="adopt.html">Adopt</a></li>
+                <li><a href="Donate.html">Donate</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="c">
+        <div class="c1">
+            <h1>Make a Donation</h1> <br>
+            <p>Make a monetary donation online or mail a check. See more information below:</p> <br>
+            <input type="button" class="button" onClick="document.getElementById('don').scrollIntoView();"
+                value="Donate Now">
+        </div>
+        <div class="c2" action="ContactUs.html">
+            <h1>Other Ways To Help</h1> <br>
+            <p>There are plenty of other ways to help. See below for more information:</p> <br>
+            <input type="button" class="button" value="Contact Us" onclick="location.href = 'ContactUs.html' "> <br>
+        </div>
+    </div>
+    <br><br>
+    <div class="m1">
+        <h1>How Your Donation Helps</h1>
+        <br><br>
+        <p>Every donation made to us helps animals in need. Your donation will be used to provide
+            shelter and loving care to homeless animals as well as help fund our medical services so that no
+            homeless pet will ever be denied the medical care they may need.</p>
+        <br><br>
+        <p>AB is a non profit 501(c)(3) organization as determined by the Pakistan Department of Treasury and the
+            Internal
+            Revenue Service. AB Pet Shelter receives no federal funding and relies solely on donations. Your
+            tax-deductable
+            donation will help offset medical expenses and the cost of care for homeless animals.</p>
+    </div>
+
+    <div class="d" id="don">
+        <div class="d1" style="margin-left: 100px">
+            <h1>One-Time payment</h1> <br>
+            <p>Use your credit card, debit card or Paypal account</p> <br>
+            <p style="font-weight:bold">Enter the amount here:<br> 
+                <input type="number" id="am"></p> <br>
+            <input type="button" class="button" onclick="return validation()" value="Pay now">
+        </div>
+        <div class="d1">
+            <h1>Subscription</h1>
+            <br>
+            <p>Make a monthly or annually recurring donation:</p> <br>
+            <select name="dropwdown">
+                <option value="1000rs per month" selected>1000rs per month</option>
+                <option value="5000rs per month">5000rs per month</option>
+                <option value="15000rs per year">15000rs per year</option>
+            </select>
+            <br> <br>
+            <input type="button" class="button" onclick="return validation(1)" value="Pay now">
+        </div>
+        <div class="d1">
+            <h1>Donate By Mail</h1><br>
+            <p>Make your check out & mail to:<br><br>Dha Suffa University Phase 7,<br> Karachi, Sindh</p>
+        </div>
+    </div>
+
+    <div>
+        <div class="t2">
+            <div class="t3">
+                <ul>
+                    <li><a href="index.html">Home page</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="adopt.html">Adopt</a></li>
+                    <li><a href="Donate.html">Donate</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="t3">
+                <ul class="fa-ul">
+                    <li>
+                        <i class="fa-li fa fa-map"></i> <p> Location: Street No. 24, DHA Phase V Tauheed Commercial, Karachi </p>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-phone"></i> <p> Number: +92 3454753172</p>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-envelope"></i> <p> Email: ABshelter@gmail.com</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+        <script>
+            function validation(num) {
+                var amount = document.getElementById('am').value;
+                if (amount.length > 1 || num == 1) {
+                    alert("Transaction Successful");
+                    alert("Thank you for your contribution");
+                    return true;
+                }
+                else
+                    alert("Don't leave this box empty");
+                return false;
+            }
+        </script>
+</body>
+
+</html>

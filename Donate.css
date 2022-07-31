@@ -1,0 +1,137 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+/* rgba(255, 187, 0, 0.932) */
+.t1{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    height:80px;
+    clear: both;
+    float:left;
+    width:100%;
+}
+.t1 li{
+    display:inline;
+    font-size: 20px;
+    margin:20px;
+    color:azure;
+    line-height: 70px;
+}
+.img{
+    margin-left:150px;
+    height:80px;
+    width:120px;
+    float:left;
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+.c{
+    height:500px;
+    background: url("dog3.jpg") no-repeat fixed;
+    background-position: center;
+}
+
+.c1{
+    margin-top: 100px;
+    margin-left:250px;
+    font-size:20px;
+    margin-right:50px;
+    text-align: center;
+    width:28%;
+    float:left;
+    font-family: 'Dosis', sans-serif;
+}
+.c button{
+    height:50px;
+    width:200px;
+    font-size:25px;
+    background-color: orangered;
+    color:white;
+    border:0px;
+    border-radius:25px;
+    cursor: pointer;
+}
+.c2{
+    margin-top: 100px;
+    margin-right:250px;
+    font-size: 20px;
+    margin-left:50px;
+    text-align: center;
+    width:28%;
+    float:left;
+    font-family: 'Dosis', sans-serif;
+}
+.c p{
+    font-size:25px;
+}
+
+.m1{
+    height:450px;
+    margin-right:150px;
+    margin-left:150px;
+    font-size:25px;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+}
+
+.d{
+    height:350px;
+    background: url("cats(1).jpg") fixed no-repeat;
+    background-size: 1600px;
+}
+.button{
+    height:50px;
+    width:150px;
+    font-size:15px;
+    background-color: orangered;
+    color:white;
+    border:0px;
+    border-radius:25px;
+    cursor: pointer;
+}
+.d p{
+    font-size:20px;
+}
+.d select{
+    width:150px;
+    height:30px;
+}
+#am{
+    width:200px;
+    height:20px;
+}
+.d1{
+    width:25%;
+    height:250px;
+    margin:30px;
+    float:left;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.342);
+}
+
+.t2{
+    background-color:#252525;
+    height:300px;
+    clear: both;
+    float:left;
+    width:100%;
+}
+.t2 ul li{
+    display:flex;
+    font-size: 25px;
+    margin:25px;
+    color:azure;
+    line-height: 20px;
+    margin-left: 50px;
+}
+
+.t3{
+    width:40%;
+    float:left;
+}
+.t3 p{
+    font-size:20px;
+}

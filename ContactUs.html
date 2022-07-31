@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel = "stylesheet" href = "ContactUs.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <div class = "t1">
+            <div>
+                <img class = "img" src = "logo.jpg">
+            </div>
+            <div>
+                <ul>
+                    <li><a href = "index.html">Home page</a></li>
+                    <li><a href = "aboutus.html">About us</a></li>
+                    <li><a href = "adopt.html">Adopt</a></li>
+                    <li><a href = "Donate.html">Donate</a></li>
+                    <li><a href = "ContactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <img src = "employees.jpg" height="450px" width="100%">
+        </div> <br>
+        <hr style="background-color:grey; height:5px; border:0px; border-radius:25px"> 
+        <br>
+        <form class ="f1">
+            <h1>Send Us a Message</h1> <br><br>
+            <p style="font-family: 'Dosis', sans-serif; font-size:20px">Please contact us with any questions, comments, or feedback, and we will get back to you as soon as possible.</p>
+            <br><br>
+            First Name: <input type = "text" style="margin-left:65px" required> <br> <br> 
+            Last Name: <input type = "text" style="margin-left:65px" required>  <br><br> 
+            Email: <input type = "email" style="margin-left:105px" required> <br><br> 
+            Phone: <input type = "number" style="margin-left:103px" required> <br><br> 
+            Inquiry Type:<select name = "dropdown"> <br>
+            <option>General</option>
+            <option>Adoption</option>
+            <option>Sponsorship</option>
+            <option>Volunteer</option>
+            </select> <br><br> 
+            Message: <br><textarea style="margin-left:165px" cols = "66" rows = "10"></textarea> <br><br>
+            <button onclick = confirm()>Submit</button>
+        </form> <br>
+        <div>
+            <div class="t2">
+                <div class="t3">
+                    <ul>
+                        <li><a href="index.html">Home page</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="adopt.html">Adopt</a></li>
+                        <li><a href="Donate.html">Donate</a></li>
+                        <li><a href="ContactUs.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="t3">
+                    <ul class="fa-ul">
+                        <li>
+                            <i class="fa-li fa fa-map"></i> <p>Location: Street No. 24, DHA Phase V Tauheed Commercial, Karachi </p>
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-phone"></i> <p> Number: +92 3454753172 </p>
+                        </li>
+                        <li>
+                            <i class="fa-li fa fa-envelope"></i> <p>Email: ABshelter@gmail.com </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function confirm() {
+                alert("You have successfully filled the form and you will be contacted within the suitable timrframe");
+            }
+        </script>
+    </body>
+</html>
